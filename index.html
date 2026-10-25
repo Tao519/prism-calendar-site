@@ -1,1 +1,45 @@
-
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about a private, self-hosted Prism family calendar and its Google Calendar integration.">
+  <title>Prism Family Calendar | Home</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; line-height: 1.65; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f4f7fa; color: #203044; }
+    header { background: #1d354a; color: #fff; padding: 1rem 1.5rem; }
+    header .inner { max-width: 780px; margin: auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: .5rem; }
+    header a { color: #d9eaf4; }
+    main { max-width: 780px; margin: 2.5rem auto; padding: 0 1.5rem; }
+    .panel { background: #fff; border: 1px solid #dae4eb; border-radius: 14px; padding: 2rem; }
+    h1, h2 { line-height: 1.25; }
+    h1 { font-size: 2rem; margin: 0 0 .6rem; }
+    h2 { margin-top: 1.8rem; font-size: 1.2rem; }
+    .eyebrow { color: #52687d; font-size: .9rem; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; }
+    a { color: #075ba2; }
+    footer { max-width: 780px; margin: 1rem auto 2.5rem; padding: 0 1.5rem; color: #52687d; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header><div class="inner"><strong>Prism Family Calendar</strong><nav><a href="privacy.html">Privacy policy</a></nav></div></header>
+  <main>
+    <div class="panel">
+      <p class="eyebrow">Private household project</p>
+      <h1>Prism Family Calendar</h1>
+      <p>This is a private family calendar dashboard running on a Raspberry Pi at home. It uses the open-source, self-hosted <a href="https://sandydargoport.github.io/prism/">Prism</a> application. It is not a commercial service and does not offer public account registration.</p>
+      <h2>What it does</h2>
+      <p>The dashboard combines family schedules in one place on a household screen. Authorised family members can view upcoming events, create appointments and manage calendars.</p>
+      <h2>Why it connects to Google Calendar</h2>
+      <p>With a family member's permission, Prism connects to their Google Calendars so events can synchronise in both directions. The requested calendar permission enables the dashboard to read calendar information and create, update or delete calendar events when an authorised user asks it to.</p>
+      <h2>Where the calendar runs</h2>
+      <p>The actual calendar application runs on a Raspberry Pi on a private home network. This public website is informational only: it is not a login page, does not display family appointments, and does not receive Google OAuth tokens or calendar data.</p>
+      <h2>Privacy</h2>
+      <p>Details about the Google data used by this household integration, its local storage and how to disconnect it are provided in our <a href="privacy.html">privacy policy</a>.</p>
+      <p>This is an independently configured household deployment of Prism, not an official Google or Prism service.</p>
+    </div>
+  </main>
+  <footer>Prism Family Calendar &middot; Private household project &middot; <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
